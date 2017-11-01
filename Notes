@@ -86,3 +86,27 @@ example: "Margin: 6px 5px"
 In the above example, the 6px would represent the top and bottom while the left and right represent the left and right.
 Margin III (Auto):Return of the Sith 
 Besides altering pixels, the margin property is also capable of centering content though to do so, you must follow a strict syntax format.
+Margin Collapse: The One you Never Expected
+difference is that top and bottom margins, also called vertical margins, collapse, while the top and bottom PADDING does not.
+Like padding, horizontal columns are always aded together. 
+For Example, if two div IDs, called #div-one and #div-two, then the lines will appear as far apart, adjacent to their previous locations
+ Unike Horiontal elements, verticaldo not add, but rather the larger of the two elements sets the distance between the adjacent elements. 
+ Minimum and Maximum height and width.
+ Depending on the size of screens, and what can be viewed, the content and formatting of a page may suffer sometimes but have no fear for CSS offers ways to fix it.
+ These properties can limit how narrow or how wide a box's properties are.
+ Minimum Width: This element ensures a minimum width for an element's box. 
+ Maximum Width: This element ensures a maximum Width for an element's box.
+ These two ensure that everything within the box remains elligible.
+ But wait! There's more...
+ You can also alter the maximum height and minimum height of an element's box.
+ Min-height: This ensures a minimum height for an element's box.
+ Max-height: This ensures a maximum height for an element's box.
+ Overflow: The Day 1 Patch
+ The Overflow element controls what happens to the content that spills outside of a box. 
+ All of this info that's sticking out can be dealth with by using one of the following things:
+ Hidden: By sing this, all excess content that is sticking out will not appear.
+ Scroll: When used, a scrollbar will appear, enabling you to scroll so that you can see the rest of your content.
+ Visible: The default element, all of the content that is sticking outside of the box will be shown and kept outside of the box. 
+ 
+
+
