@@ -83,50 +83,50 @@ As much freedom as it gives you, if you'd like to go more in-depth into how wide
      <li>margin-left</li>
    <p>Each one of these provides edits on the side of your choice.</p>
    <h2> Margin II: Attack of the Clones </h2>
-If you don't want equal margins on your box, have no fear because you're able to specify exactly how many pixels you want the sides to be.
+   <p>If you don't want equal margins on your box, have no fear because you're able to specify exactly how many pixels you want the sides to be.
 an example would be as follows: "margin: 6px 5px 10px 12 px;"
 As we can see above, there are different amounts of pixels for the different sides. 
 It's also really easy to see which side it's being applied to because the numbers go in a clockwise fashion, so the 6px will be the top, the 5px will be the right, and so forth...
 If you're certain that you want the top and bottom values to equal the same, and the right and left to equal the same, you can simply input 2 numbers, as opposed to four.
 example: "Margin: 6px 5px"
-In the above example, the 6px would represent the top and bottom while the left and right represent the left and right.
-Margin III (Auto):Return of the Sith 
-Besides altering pixels, the margin property is also capable of centering content though to do so, you must follow a strict syntax format.
-Margin Collapse: The One you Never Expected
-difference is that top and bottom margins, also called vertical margins, collapse, while the top and bottom PADDING does not.
+In the above example, the 6px would represent the top and bottom while the left and right represent the left and right.</p>
+   <h2> Margin III (Auto):Return of the Sith </h2>
+   <p>Besides altering pixels, the margin property is also capable of centering content though to do so, you must follow a strict syntax format.</p>
+   <h2> Margin Collapse: The One you Never Expected... </h2>
+   <p> A very big difference is that top and bottom margins, also called vertical margins, collapse, while the top and bottom PADDING does not.
 Like padding, horizontal columns are always aded together. 
 For Example, if two div IDs, called #div-one and #div-two, then the lines will appear as far apart, adjacent to their previous locations
- Unike Horiontal elements, verticaldo not add, but rather the larger of the two elements sets the distance between the adjacent elements. 
- Minimum and Maximum height and width.
- Depending on the size of screens, and what can be viewed, the content and formatting of a page may suffer sometimes but have no fear for CSS offers ways to fix it.
+ Unike Horiontal elements, vertical do not add, but rather the larger of the two elements sets the distance between the adjacent elements.</p>
+   <h2> Minimum and Maximum height and width. </h2>
+   <p>Depending on the size of screens, and what can be viewed, the content and formatting of a page may suffer sometimes but have no fear for CSS offers ways to fix it.
  These properties can limit how narrow or how wide a box's properties are.
  Minimum Width: This element ensures a minimum width for an element's box. 
  Maximum Width: This element ensures a maximum Width for an element's box.
- These two ensure that everything within the box remains elligible.
- But wait! There's more...
- You can also alter the maximum height and minimum height of an element's box.
+ These two ensure that everything within the box remains elligible.</p>
+   <h3> But wait! There's more... </h3>
+   <p>You can also alter the maximum height and minimum height of an element's box.
  Min-height: This ensures a minimum height for an element's box.
- Max-height: This ensures a maximum height for an element's box.
- Overflow: The Day 1 Patch
- The Overflow element controls what happens to the content that spills outside of a box. 
+ Max-height: This ensures a maximum height for an element's box.</p>
+   <h2> Overflow: The Day 1 Patch </h2>
+   <p>The Overflow element controls what happens to the content that spills outside of a box. 
  All of this info that's sticking out can be dealth with by using one of the following things:
  Hidden: By sing this, all excess content that is sticking out will not appear.
  Scroll: When used, a scrollbar will appear, enabling you to scroll so that you can see the rest of your content.
- Visible: The default element, all of the content that is sticking outside of the box will be shown and kept outside of the box. 
- Resetting Defaults
- Almost every single major website has a default stylesheet that they use in absence of an external one.
- These sheets are also reffered to as "user agent stylesheets"
- "* {
-  margin: 0;
-  padding: 0;
-}
-" a code such as this would clear a whole webpage, giving developpers a clean slate to work with.
-Visibility 
-Elements can be hidden from view with the visibility property.
+ Visible: The default element, all of the content that is sticking outside of the box will be shown and kept outside of the box.</p>
+  <h2> Resetting Defaults </h2>
+  <p> Almost every single major website has a default stylesheet that they use in absence of an external one.
+ These sheets are also reffered to as "user agent stylesheets"</p>
+ "* { <br />
+  margin: 0; <br />
+  padding: 0; <br />
+}"
+  <p>A code such as this would clear a whole webpage, giving developpers a clean slate to work with.</p>
+  <h2> Visibility </h2>
+  <p>Elements can be hidden from view with the visibility property.
 The property of visibility can be set to one of the two following options:
 Hidden -- which hides an element from plain sight
-Visible -- Displays an element so it can be viewed 
-".future {
-  visibility: hidden;
-}
-" As you can see, the elements above within the future class cannot be viewe by an outsider.
+Visible -- Displays an element so it can be viewed</p>
+".future { <br />
+  visibility: hidden; <br />
+}"
+  <p>As you can see, the elements above within the future class cannot be viewe by an outsider.</p>
