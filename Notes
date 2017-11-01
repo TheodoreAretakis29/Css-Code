@@ -1,18 +1,24 @@
- CSS
- CSS can alter and shape the way that an HTML element appears. 
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> Cascading Style Sheet </title>
+ </head>
+ <body>
+   <h1> WHAT IS CSS?!? </h1>
+   <p>CSS can alter and shape the way that an HTML element appears. 
  It can select elements with tag, class, or ID.
  Even though CSS and HTML are two completely different languages, CSS code can be written within HTML using inline codes. 
- HTML allows you ti type in CSS by using <style> commands.
- Creating a CSS file is simple. All you need is to vreate a file using .css.
- To link the two files together, you can create <link>
+ HTML allows you to type in CSS by using estyle commands.
+ Creating a CSS file is simple. All you need is to create a file using .css.
+ To link the two files together, you can create link.
  The href element must be the adress, or path, to CSS file. 
  The type attribute describes the type of document that you are linking to. 
- The rel element desribes The relationship between the two files. The value should be set to style sheet.
-The HTML tag for a paragraph is <p> and the syntax is p 
-It is possible to select an element by its class attribute. An example would be the following: "<p class="brand">Sole Shoe Company</p>"
-You can add multiple elemtns to an element's class.
-An ID element needs an id attriute if you wiah to add it. 
-The CSS can select an HTML element by their ID, by having CSS prepend the id name with a hashtag symbol.
+ The rel element desribes The relationship between the two files. The value should be set to style sheet
+It is possible to select an element by its class attribute. 
+You can add multiple elements to an element's class.
+An ID element needs an id attriute if you wish to add it.</p>
+   <h2> IDs (and other stuff such as classes, nested elements) </h2>
+   <p> The CSS can select an HTML element by their ID, by having CSS process the id name with a hashtag symbol.
 CSS is capable fo selecting elements in HMTL via their class, ID or tag.
 CSS classes are supposed to be recycled over a plethora of elements, so that you can change and alter elements in many different ways b mixing classes.
 Classes can be reusable, while IDs can only be used once.
@@ -20,7 +26,7 @@ Chaining Selectors... It is very much possible for an HTML element to have 2 CSS
 This is done by the combination of multiple selectors, and this is refered to as chaining. 
 Nested Elements: CSS is able to select elements that are "nested" within other html elements. 
 In CSS, there is one thing that is far more specific than IDs, which is the !important tag, which can be applied to specific attributes as opposed to an entire set of rules.
-It should NEVER BE USED because it will override any style, no matter how specific it is. 
+It should NEVER BE USED because it will override any style, no matter how specific it is. </p>
 To prevent writting repetitive code, one can add multiple CSS styles to CSS selectors. 
 Multiple differently selectors can have the same styles by separating the selector names with commas.
 The structure of CSS: To edit an HTML document using css, YOU MUST WRITE A CSS declaration inside of a CSS selector. 
@@ -55,28 +61,28 @@ Thanks to CSS, borders don't have to be boxes!!!!!!!!!!!!!
 It is possible to edit a boxes corners border-radius property
 With a bx model, one is able to to set all corners of a box to a certain amount of pixels. 
 One is also able to create a border that is a perfectly symmetrical circle by setting the radius equal to the box or alternatively to 100%.
-PADDING part I 
-Padding is what's known as the space between the content and the frame that encapsulates it. 
+   <h2> Padding part I </h2>
+   <p>Padding is what's known as the space between the content and the frame that encapsulates it. 
 There is an element that is capable of manipulating that space, refered to as the Padding Elements.
 This Padding element is typically used to expand background colour and make content look less clustered.
-If one wishes to be more precise, they can use the following element: 
-padding-top
-padding-right
-padding-bottom
-padding-left
-Padding part II
-The second usage for padding lets you specify exactly how much padding there should be on each side of the content contained within the box.
-Margin I: The Phantom Menace
-A margin is the term used to refer to the space directly outsde of the box.
+If one wishes to be more precise, they can use the following element:</p> 
+     <li>padding-top</li>
+     <li>padding-right</li>
+     <li>padding-bottom</li>
+     <li>padding-left</li>
+   <h2> Padding part II </h2>
+   <p>The second usage for padding lets you specify exactly how much padding there should be on each side of the content contained within the box.</p>
+   <h2> Margin I: The Phantom Menace </h2>
+   <p>A margin is the term used to refer to the space directly outsde of the box.
 It is tthe final component to the box model.
 The margin element isused to specify the size of that space.
-As much freedom as it gives you, if you'd like to go more in-depth into how wide you'd like each side to be, you can use the following commands:
-margin-top
-margin-right
-margin-bottom
-margin-left
-Each one of these provides edits on the side of your choice.
-Margin II: Attack of the Clones
+As much freedom as it gives you, if you'd like to go more in-depth into how wide you'd like each side to be, you can use the following commands:</p>
+     <li>margin-top</li>
+     <li>margin-right</li>
+     <li>margin-bottom</li>
+     <li>margin-left</li>
+   <p>Each one of these provides edits on the side of your choice.</p>
+   <h2> Margin II: Attack of the Clones </h2>
 If you don't want equal margins on your box, have no fear because you're able to specify exactly how many pixels you want the sides to be.
 an example would be as follows: "margin: 6px 5px 10px 12 px;"
 As we can see above, there are different amounts of pixels for the different sides. 
