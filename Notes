@@ -27,6 +27,7 @@ This is done by the combination of multiple selectors, and this is refered to as
 Nested Elements: CSS is able to select elements that are "nested" within other html elements. 
 In CSS, there is one thing that is far more specific than IDs, which is the !important tag, which can be applied to specific attributes as opposed to an entire set of rules.
 It should NEVER BE USED because it will override any style, no matter how specific it is. </p>
+   <h2> 
 To prevent writting repetitive code, one can add multiple CSS styles to CSS selectors. 
 Multiple differently selectors can have the same styles by separating the selector names with commas.
 The structure of CSS: To edit an HTML document using css, YOU MUST WRITE A CSS declaration inside of a CSS selector. 
