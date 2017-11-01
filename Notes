@@ -107,6 +107,20 @@ For Example, if two div IDs, called #div-one and #div-two, then the lines will a
  Hidden: By sing this, all excess content that is sticking out will not appear.
  Scroll: When used, a scrollbar will appear, enabling you to scroll so that you can see the rest of your content.
  Visible: The default element, all of the content that is sticking outside of the box will be shown and kept outside of the box. 
- 
-
-
+ Resetting Defaults
+ Almost every single major website has a default stylesheet that they use in absence of an external one.
+ These sheets are also reffered to as "user agent stylesheets"
+ "* {
+  margin: 0;
+  padding: 0;
+}
+" a code such as this would clear a whole webpage, giving developpers a clean slate to work with.
+Visibility 
+Elements can be hidden from view with the visibility property.
+The property of visibility can be set to one of the two following options:
+Hidden -- which hides an element from plain sight
+Visible -- Displays an element so it can be viewed 
+".future {
+  visibility: hidden;
+}
+" As you can see, the elements above within the future class cannot be viewe by an outsider.
