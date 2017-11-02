@@ -134,4 +134,14 @@ Visible -- Displays an element so it can be viewed</p>
   visibility: hidden; <br />
 }"
   <p>As you can see, the elements above within the future class cannot be viewe by an outsider.</p>
+  
+  <h2> More Box Models </h2>
+  <p> In the default model, the dimensions are affected by border thickness, and padding. 
+  The box-sizing property controls the model that is used by browsers.
+  Content-box is the default property of the box-sizing property.
+  The value for a abox model is the border-box elemet.
+  Border box isnot affected by thickness or padding </p>
+  
+  </body>
+</html>
 </html>
