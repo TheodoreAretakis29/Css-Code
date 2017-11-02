@@ -27,41 +27,44 @@ This is done by the combination of multiple selectors, and this is refered to as
 Nested Elements: CSS is able to select elements that are "nested" within other html elements. 
 In CSS, there is one thing that is far more specific than IDs, which is the !important tag, which can be applied to specific attributes as opposed to an entire set of rules.
 It should NEVER BE USED because it will override any style, no matter how specific it is. </p>
-   <h2> 
-To prevent writting repetitive code, one can add multiple CSS styles to CSS selectors. 
+   <h2> Styles, Selectors, Declarations, Values and Properties </h2> 
+   <p> To prevent writting repetitive code, one can add multiple CSS styles to CSS selectors. 
 Multiple differently selectors can have the same styles by separating the selector names with commas.
 The structure of CSS: To edit an HTML document using css, YOU MUST WRITE A CSS declaration inside of a CSS selector. 
 A CSS delcaration consists of a value and a property... so what are they?
 A property reffers to what you'd like to alter in an element, whther that be its size, or even colour.
-A value reffers to the value of that property, meaning what colour, or what size or font will replace whatever was previously there. 
-If you wiah to change the font or typeface, use the font-family property. 
+A value reffers to the value of that property, meaning what colour, or what size or font will replace whatever was previously there. </p>
+   <h2> The many ways to manipulate text </h2>
+   <p>If you wish to change the font or typeface, use the font-family property. 
 Typeface and font-family aren't the only way to alter your texts. Did you know that you can alter the size using the font-size property. 
 The font-weight property controls the depth of the text, which can make it bold. 
 The font-weight property controls the depth of the text, which can make it bold. 
 Text Align... To align text, we need to use the text align property, since text always appears to the left side of a browser
 The left command aligns the text to the left side of the page.
 The center elelment aligns text to the center.
-Right align aligns text to the right side of the page. 
-Color... foreground color is the color that an element appears in.
+Right align aligns text to the right side of the page. </p>
+   <h2> Foreground and Background </h2>
+   <p> Color... foreground color is the color that an element appears in.
 color: Color is the property style of an elements color that is used in the foreground.
 Back-ground color: This is property syle of an element;s background color.
 Opacity... opacity is the msurement of how transparent an element.
 Opacity works on a scale from 0 all the way to the large number of... 1, with 0 being 0% opacity and 1 representing 100% full power, the ultimate form.
 Background checks: CSS has the ability to change the background of an element. One of the few options is to make the background the image of your choice. 
- The value that must be given for the background image is an URL, that of a website. 
-The border can be edited by specifying the exact number of pixels or uusing one of the following keywords:
- Thin
- Medium 
- Thick
- Stytle refers to the specific design of the border. 10 unique styles can be rendered by a web browser and key words include:
- None
- Dotted
- Solid
- Color refers to the colour in which the border will be. There are 140 keywords available that can be rendered by web browsers.
+ The value that must be given for the background image is an URL, that of a website. </p>
+   <h2> Borders </h2>
+   <p> The border can be edited by specifying the exact number of pixels or uusing one of the following keywords:</p>
+    <li>Thin</li>
+    <li>Medium</li>
+    <li>Thick</li>
+   <p>Stytle refers to the specific design of the border. 10 unique styles can be rendered by a web browser and key words include:</p>
+    <li>None</li>
+    <li>Dotted</li>
+    <li>Solid</li>
+   <p>Color refers to the colour in which the border will be. There are 140 keywords available that can be rendered by web browsers.
 Thanks to CSS, borders don't have to be boxes!!!!!!!!!!!!!
 It is possible to edit a boxes corners border-radius property
 With a bx model, one is able to to set all corners of a box to a certain amount of pixels. 
-One is also able to create a border that is a perfectly symmetrical circle by setting the radius equal to the box or alternatively to 100%.
+One is also able to create a border that is a perfectly symmetrical circle by setting the radius equal to the box or alternatively to 100%.</p>
    <h2> Padding part I </h2>
    <p>Padding is what's known as the space between the content and the frame that encapsulates it. 
 There is an element that is capable of manipulating that space, refered to as the Padding Elements.
@@ -131,3 +134,4 @@ Visible -- Displays an element so it can be viewed</p>
   visibility: hidden; <br />
 }"
   <p>As you can see, the elements above within the future class cannot be viewe by an outsider.</p>
+</html>
